@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./Separator.module.css";
+import styles from "./styles.module.css";
 const index = () => {
   return (
     <hr className={styles.separator}/>
