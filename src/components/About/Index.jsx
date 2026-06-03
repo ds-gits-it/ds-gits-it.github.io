@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
-import Seperator from "../Separator/Separator"
+import Separator from "../Separator/Separator"
 import BlackButton from '../Button/black'
 import WhiteButton from "../Button/white";
 const index = () => {
