@@ -7,7 +7,7 @@ const Skills = lazy(() => import("./components/Skills/Index"));
 const Projects = lazy(() => import("./components/Projects/Index"));
 const Contact = lazy(() => import("./components/Contact/Index"));
 const GithubStats = lazy(() => import("./components/GithubStats/Index"));
-import Seperator from "./components/Separator/Separator";
+import Separator from "./components/Separator/Separator";
 import { initializeSmoothScrolling } from "./utils/smoothScroll";
 function App() {
   initializeSmoothScrolling()
@@ -20,15 +20,17 @@ function App() {
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Skills />
         </Suspense>
-        // <Seperator />
-        // <Suspense fallback={<div>Lazy Loading...</div>}>
-        //   <GithubStats />
-        // </Suspense>
-        // <Seperator />
+       {/*
+         <Separator />
+        <Suspense fallback={<div>Lazy Loading...</div>}>
+          <GithubStats />
+        </Suspense>
+        <Separator />
+        */}
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Projects />
         </Suspense>
-        {/* <Seperator /> */}
+        {/* <Separator /> */}
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Contact />
         </Suspense>

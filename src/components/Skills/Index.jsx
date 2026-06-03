@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
-import Seperator from "../Separator/Separator"
+import Separator from "../Separator/Separator"
 import FirebaseSVG from "../SVGs/FirebaseSVG"
 import ReactSVG from "../SVGs/ReactSVG"
 import JavascriptSVG from "../SVGs/JavascriptSVG"
