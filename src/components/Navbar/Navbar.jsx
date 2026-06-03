@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css"
+import styles from "./styles.module.css"
 import WhiteButton from "../Button/white"
 import BlackButton from "../Button/black"
 import Sidebar from "./Sidebar/Sidebar";
