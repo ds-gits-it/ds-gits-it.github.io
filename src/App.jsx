@@ -20,11 +20,11 @@ function App() {
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Skills />
         </Suspense>
-        {/* <Seperator /> */}
-        <Suspense fallback={<div>Lazy Loading...</div>}>
-          <GithubStats />
-        </Suspense>
-        {/* <Seperator /> */}
+        // <Seperator />
+        // <Suspense fallback={<div>Lazy Loading...</div>}>
+        //   <GithubStats />
+        // </Suspense>
+        // <Seperator />
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Projects />
         </Suspense>
