@@ -9,7 +9,7 @@ import Separator from "../Separator/Separator"
 const Projects = () => {
   const arr = [
     {
-      mockup: "./Projects/green_paradise.png",
+      mockup: "./Projects/green_paradise.webp",
       title: "Green Paradise",
       skills: [
         <JavascriptSVG SVG />,
@@ -23,7 +23,7 @@ const Projects = () => {
       demo: "https://green-paradise-dip.vercel.app/",
     },
     {
-      mockup: "./Projects/nykaa.png",
+      mockup: "./Projects/nykaa.webp",
       title: "Nykaa Clone",
       skills: [
         <JavascriptSVG />,
@@ -37,7 +37,7 @@ const Projects = () => {
       demo: "https://nykaa-clone-dip.vercel.app/",
     },
     // {
-    //   mockup: "./Projects/SAWS.png",
+    //   mockup: "./Projects/SAWS.webp",
     //   title: "SAWS",
     //   contri: "Homepage",
     //   skills: [
@@ -51,7 +51,7 @@ const Projects = () => {
     //   demo: "https://saws.netlify.app/",
     // },
     {
-      mockup: "./Projects/goggol.png",
+      mockup: "./Projects/goggol.webp",
       title: "Google Clone",
       skills: [
         <ReactSVG />,
