@@ -20,7 +20,7 @@ const index = () => {
       <div className={styles.imgNDesc}>
         <img
           className="home-img"
-          src="/prof.png"
+          src="/prof.webp"
           alt="profile"
         />
         <div id={styles.aboutDetails}>
