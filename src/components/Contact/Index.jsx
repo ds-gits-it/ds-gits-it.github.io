@@ -38,7 +38,7 @@ const index = () => {
           className={styles.detail}
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Dipanshu-Singh-Dev"
+          href="https://github.com/ds-gits-it"
         >
           <div>
             <GithubSVG />

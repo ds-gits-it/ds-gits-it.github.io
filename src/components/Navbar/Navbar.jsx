@@ -7,7 +7,7 @@ import Hamburger from "../SVGs/HamburgerSVG/Hamburger";
 import { useState } from "react";
 const Navbar = () => {
   const handleClick = () => setSidebaropen((prev) => !prev);
-  const [sidebarOpen,setSidebaropen] = useState(false)
+  const [sidebarOpen, setSidebaropen] = useState(false)
   const downloadHandle = () => {
     const link = document.createElement("a");
     link.download = "Dipanshu_Singh_Resume.pdf";
@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className={styles.buttonsContainer}>
         <BlackButton
           event={() => {
-            window.open("https://github.com/Dipanshu-Singh-Dev", "_blank");
+            window.open("https://github.com/ds-gits-it", "_blank");
           }}
           external
           text="Github"

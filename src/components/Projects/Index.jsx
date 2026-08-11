@@ -19,7 +19,7 @@ const Projects = () => {
       contri: "Products Page",
       description:
         "A fully functional e-commerce website, offers a wide variety of plants and gardening supplies.",
-      github: "https://github.com/Dipanshu-Singh-Dev/Green-Paradise/",
+      github: "https://github.com/ds-gits-it/Green-Paradise/",
       demo: "https://green-paradise-dip.vercel.app/",
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       contri: "Homepage",
       description:
         "Online beauty and wellness destination, Offering a comprehensive selection of beauty and wellness products.",
-      github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
+      github: "https://github.com/ds-gits-it/Nyka",
       demo: "https://nykaa-clone-dip.vercel.app/",
     },
     // {
@@ -47,7 +47,7 @@ const Projects = () => {
     //   ],
     //   description:
     //     "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
-    //   github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
+    //   github: "https://github.com/ds-gits-it/Nyka",
     //   demo: "https://saws.netlify.app/",
     // },
     {
@@ -61,7 +61,7 @@ const Projects = () => {
       contri: "Everything",
       description:
         "A google clone with extensive functionality with an full fledged shopping section, a videos section wtih video player and more.",
-      github: "https://github.com/Dipanshu-Singh-Dev/google_clone",
+      github: "https://github.com/ds-gits-it/google_clone",
       demo: "https://google-clone-dip.vercel.app/",
     },
   ];

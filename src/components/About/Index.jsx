@@ -1,6 +1,5 @@
 import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
-import Separator from "../Separator/Separator"
 import BlackButton from '../Button/black'
 import WhiteButton from "../Button/white";
 const index = () => {
@@ -10,7 +9,7 @@ const index = () => {
     link.href = "Dipanshu_Singh_Resume.pdf";
     link.click();
     window.open(
-      "https://rxresu.me/work.dipanshu.singh/stuck-healthy-owl",
+      "https://rxresu.me/work.dipanshu.singh/fsd",
       "_blank"
     );
   };
@@ -35,7 +34,7 @@ const index = () => {
           <div id={styles.buttonContainer}>
             <BlackButton
               event={() => {
-                window.open("https://github.com/Dipanshu-Singh-Dev", "_blank");
+                window.open("https://github.com/ds-gits-it", "_blank");
               }}
               text="Github"
               external
