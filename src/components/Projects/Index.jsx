@@ -22,34 +22,34 @@ const Projects = () => {
       github: "https://github.com/ds-gits-it/Green-Paradise/",
       demo: "https://green-paradise-dip.vercel.app/",
     },
-    {
-      mockup: "./Projects/nykaa.webp",
-      title: "Nykaa Clone",
-      skills: [
-        <JavascriptSVG />,
-        <HTML5SVG styleClass={styles.html} />,
-        <Css3SVG />,
-      ],
-      contri: "Homepage",
-      description:
-        "Online beauty and wellness destination, Offering a comprehensive selection of beauty and wellness products.",
-      github: "https://github.com/ds-gits-it/Nyka",
-      demo: "https://nykaa-clone-dip.vercel.app/",
-    },
     // {
-    //   mockup: "./Projects/SAWS.webp",
-    //   title: "SAWS",
-    //   contri: "Homepage",
+    //   mockup: "./Projects/nykaa.webp",
+    //   title: "Nykaa Clone",
     //   skills: [
-    //     <ReactSVG />,
+    //     <JavascriptSVG />,
     //     <HTML5SVG styleClass={styles.html} />,
     //     <Css3SVG />,
     //   ],
+    //   contri: "Homepage",
     //   description:
-    //     "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
+    //     "Online beauty and wellness destination, Offering a comprehensive selection of beauty and wellness products.",
     //   github: "https://github.com/ds-gits-it/Nyka",
-    //   demo: "https://saws.netlify.app/",
+    //   demo: "https://nykaa-clone-dip.vercel.app/",
     // },
+    {
+      mockup: "./Projects/SAWS.webp",
+      title: "SAWS",
+      contri: "Homepage",
+      skills: [
+        <ReactSVG />,
+        <HTML5SVG styleClass={styles.html} />,
+        <Css3SVG />,
+      ],
+      description:
+        "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
+      github: "https://github.com/ds-gits-it/Nyka",
+      demo: "https://saws.netlify.app/",
+    },
     {
       mockup: "./Projects/goggol.webp",
       title: "Google Clone",
