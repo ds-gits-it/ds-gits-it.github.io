@@ -47,7 +47,7 @@ const Projects = () => {
       ],
       description:
         "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
-      github: "https://github.com/ds-gits-it/Nyka",
+      github: "https://github.com/ds-gits-it/SAWS-Frontend",
       demo: "https://saws.netlify.app/",
     },
     {
