@@ -64,9 +64,7 @@ const index = () => {
             </g>
           </svg>
           <p>
-            work.dipanshu.singh
-            <br />
-            @gmail.com
+            talentedmrl0real@gmail.com
           </p>
         </a>
         <a id="contact-phone">
