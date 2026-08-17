@@ -1,6 +1,8 @@
 import styles from "./styles.module.css"
 import Head1 from '../Head1/Head1'
 import GithubSVG from "../SVGs/GithubSVG";
+import constants from "../../utils/constants.json"
+
 const index = () => {
   return (
     <div id="contact" className={styles.contact}>
@@ -11,7 +13,7 @@ const index = () => {
           id="contact-linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/dipanshu-singh-645821153/"
+          href={constants.LINKEDIN}
         >
           <svg
             viewBox="0 0 24 24"
@@ -38,7 +40,7 @@ const index = () => {
           className={styles.detail}
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/ds-gits-it"
+          href={constants.GITHUB}
         >
           <div>
             <GithubSVG />
@@ -64,7 +66,7 @@ const index = () => {
             </g>
           </svg>
           <p>
-            talentedmrl0real@gmail.com
+            {constants.EMAIL}
           </p>
         </a>
         <a id="contact-phone">
@@ -89,7 +91,7 @@ const index = () => {
               ></path>
             </g>
           </svg>
-          <p>+91 79821 59177</p>
+          <p>{constants.PHONE}</p>
         </a>
       </div>
     </div>
